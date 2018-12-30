@@ -1,0 +1,33 @@
+{
+  "name": "webpack-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:anova/webpack-examples.git",
+  "author": "Necat Bolpaça <necat@kreatif.net>",
+  "license": "MIT",
+  "scripts": {
+    "example1": "webpack --config example1/webpack.config.js --mode production",
+    "example1-dev": "webpack-dev-server --config example1/webpack.config.js --mode development",
+    "example-react": "webpack --config example-react/webpack.config.js --mode production",
+    "example-react-dev": "webpack-dev-server --config example-react/webpack.config.js --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.4.3",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
